@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="public/css/try.css">
+    <link rel="stylesheet" href="public/css/hobby.css">
     <title>Hobby</title>
 </head>
 <body>
     <div class="video-background">
-        <video autoplay muted loop playsinline>
-            <source src="public/background/hobby2.mp4" type="video/mp4">
+        <video autoplay muted loop id="video-bg">
+            <source src="public/background/hobby.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
@@ -18,17 +18,43 @@
 
     <div class="container scroll-1">
         <div class="card">
-            <video autoplay muted loop id="card__video">
-                <source src="public/background/f1.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <div class="card__content">
-                <span class="card__title">Formula 1</span>
-                <p class="card__describe">
+          <video class="card__video" autoplay muted loop>
+            <source src="public/background/F1.mp4" type="video/mp4">
+          </video>
+          <div class="card__content">
+              <span class="card__title">Formula 1</span>
+              <p class="card__describe">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__image"></div>
+          <div class="card__content">
+              <span class="card__title">Riding</span>
+              <p class="card__describe">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__image"></div>
+          <div class="card__content">
+              <span class="card__title">Aviation</span>
+              <p class="card__describe">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+          </div>
+        </div>
+        <div class="card">
+            <div class="card__image"></div>
+            <div class="card__content">
+                <span class="card__title">Other Adventurs</span>
+                <p class="card__describe">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
             </div>
-        </div>
+          </div>
     </div>
 
     <!--End of Swiping Cards-->
